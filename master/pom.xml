@@ -19,7 +19,7 @@
              （CI/新机器只有 central，缺这个 jar 会在 :common 依赖解析处直接失败）-->
         <repository>
             <id>ctbrec-local-repo</id>
-            <url>${project.basedir}/../repo</url>
+            <url>file:///${project.basedir}/../repo</url>
         </repository>
     </repositories>
 
